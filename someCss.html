@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angela's Some CSS Site </title>
+	</head>
+	<style>
+		p.a {font-family: "Times New Roman", Times, serif;}
+		p.b {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif}
+		.dropdown {position: relative;display: inline-block;}
+		.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);padding: 12px 16px;z-index: 1;}
+		.dropdown:hover .dropdown-content {display: block;}
+		.container {position: relative;text-align: center;color: white;}
+		.centered {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+		.dotted {border-style: dotted;}
+		.ex1 {margin: 20px;}
+	</style>
+	<body>
+		<h2> Cool Fonts </h2>
+			<h3>Paragraph 1</h3>
+				<p class="a"> Hi. This is the first paragraph. This paragraph is typed using the font Times New Roman. To be honest, I don't know what to write in this paragraph so it will very short. </p>
+			<h3>Paragraph 2</h3>
+				<p class="b"> Hi. This is the second paragraph. This paragraph is typed using the font Palatino Linotype I believe. I haven't seen this font used on websites before so I thought it would be interesting to try it out. </p>
+		<h2> Playing with Images </h2>
+			<a href="https://paranormal.lovetoknow.com/about-paranormal/spiritual-meaning-rainbow">
+				<img src="https://cf.ltkcdn.net/paranormal/images/orig/243817-1600x1030-spiritual-meaning-rainbow.jpg"title="Basic Rainbow"style="width:300px;height:200px;margin:5px">
+			</a>
+			<a href="https://paranormal.lovetoknow.com/about-paranormal/spiritual-meaning-rainbow">
+				<img src="https://cf.ltkcdn.net/paranormal/images/orig/243817-1600x1030-spiritual-meaning-rainbow.jpg"title="Basic Rainbow"style="width:50px;height:50px;margin:5px">
+			</a>
+			<a href="http://supercoolnature.blogspot.com/2010/10/rainbows-colourful-gift-from-nature.html">
+				<img src="https://4.bp.blogspot.com/_NRP-6Xdm3t8/TLFqC02ZdXI/AAAAAAAAA2A/DvRK0MBPoqY/s400/6.jpg"title="Cool Rainbow"style="width:300px;height:200px;margin:5px">
+			</a>
+			<a href="http://supercoolnature.blogspot.com/2010/10/rainbows-colourful-gift-from-nature.html">
+				<img src="https://4.bp.blogspot.com/_NRP-6Xdm3t8/TLFqC02ZdXI/AAAAAAAAA2A/DvRK0MBPoqY/s400/6.jpg"title="Cool Rainbow"style="width:50px;height:50px;margin:5px">
+			</a>
+			<div class="container">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Grass_Field_in_Pereiaslav-Khmelnytskyi.jpg" alt="Field" style="width:50%;">
+			<div class="centered">Centered</div>
+			</div>
+			<p> Image with 20px margins </p>
+			<div class="ex1">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/CH_cow_2_cropped.jpg" alt="Cow" style="width:30%">
+			</div>
+			<div class="dotted">
+				<img src="https://www.clipartmax.com/png/middle/66-663455_cow-clipart-money-cow-clip-art-png.png" alt="Cartoon Cow" style="width:100%;">
+			</div>
+		<h2> Cool Drop Down Feature </h2>	
+			<div class="dropdown">
+			<span>Hover over Me</span>
+ 		 	<div class="dropdown-content">
+  			<p>BOO. Scared you!</p>
+  			</div>
+  			</div>
+  	</body>
+</html>
